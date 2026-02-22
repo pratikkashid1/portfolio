@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratik Kashid — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Cursor Glow Overlay -->
+  <div id="cur"></div>
+  <div id="curT"></div>
+
+  <!-- ══ HEADER ══════════════════════════════════════ -->
+  <header id="hdr">
+    <a href="#hero" class="logo">
+      <div class="ldot"></div>Pratik.Kashid
+    </a>
+    <nav id="nav">
+      <a href="#about" data-t="About">About</a>
+      <a href="#skills" data-t="Skills">Skills</a>
+      <a href="#projects" data-t="Projects">Projects</a>
+      <a href="#contact" data-t="Contact">Contact</a>
+    </nav>
+    <div class="ham" id="ham">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- ══ HERO ════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="h-noise"></div>
+    <div class="h-grid"></div>
+    <div class="h-ring"></div>
+    <div class="h-ring2"></div>
+
+    <p class="h-tag">
+      <span id="typedText"></span>
+    </p>
+
+    <h1 class="h-title">
+      <span style="display:block">I BUILD</span>
+      <span style="display:block" class="stroke">DIGITAL</span>
+      <span style="display:block" class="glow-txt glitch" data-t="FUTURES.">FUTURES.</span>
+    </h1>
+
+    <p class="h-sub">
+      Full-stack developer &amp; creative engineer. I craft high-performance web
+      experiences that push the boundaries of what's possible in the browser.
+    </p>
+
+    <div class="h-btns">
+      <a href="#projects" class="btn b-fill">View Work →</a>
+      <a href="#contact" class="btn b-neon">Start a Project</a>
+    </div>
+
+    <div class="h-scroll">
+      <span class="sc-txt">Scroll</span>
+      <div class="sc-line"></div>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ═══════════════════════════════════════ -->
+  <section id="about">
+    <p class="sl rv">Who I Am</p>
+    <h2 class="st rv">Turning <span>code</span> into experiences</h2>
+
+    <div class="ab-grid">
+      <!-- Avatar -->
+      <div class="rl">
+        <div class="av">
+          <img src="Resources/myIMG.png" alt="Alex Morgan" class="av-img" />
+          <div class="av-badge">// ONLINE</div>
+        </div>
+      </div>
+
+      <!-- Bio -->
+      <div class="rr">
+        <div class="term">
+          <div class="tdots"><span></span><span></span><span></span></div>
+          <div class="ttext">
+            <span class="cm">// hello_world.js</span><br>
+            <span class="kw">const</span> pratik = {<br>
+            &nbsp;&nbsp;role: <span class="str">"Full-Stack Developer"</span>,<br>
+            &nbsp;&nbsp;location: <span class="str">"Pune, Maharashtra"</span>,<br>
+            &nbsp;&nbsp;passion: <span class="str">"Building bold UIs"</span>,<br>
+            <!-- &nbsp;&nbsp;experience: <span class="str">"4+ years"</span>,<br> -->
+            &nbsp;&nbsp;<span class="fn">available</span>: <span class="kw">true</span>,<br>
+            };<span class="cblink"></span>
+          </div>
+        </div>
+
+        <p class="ab-p">
+          Hi, I'm Pratik — I turn complex problems into beautiful, functional products.
+          I obsess over every detail, from pixel-perfect UIs to highly optimized APIs.
+          Great code, I believe, is a form of art.
+        </p>
+
+        <!-- <div class="stats">
+          <div class="sb rv"><span class="n">2+</span><span class="l">Projects</span></div>
+          <div class="sb rv"><span class="n">2+</span><span class="l">Clients</span></div>
+          <div class="sb rv"><span class="n">5yr</span><span class="l">Experience</span></div> -->
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ══ SKILLS ══════════════════════════════════════ -->
+  <section id="skills">
+    <p class="sl rv">Expertise</p>
+    <h2 class="st rv">Skills &amp; <span>Arsenal</span></h2>
+
+    <div class="sk-grid">
+      <div class="sk-card rv">
+        <div class="sk-ico">🎨</div>
+        <div class="sk-nm">UI / UX Design</div>
+        <div class="sk-ds">Interfaces that stop thumbs and open wallets. Design systems that scale.</div>
+        <div class="sk-bw">
+          <div class="sk-b c" data-p="92"></div>
+        </div>
+        <div class="sk-pct">92%</div>
+        <div class="tags"><!--<span class="tag tc">Figma</span><span class="tag tc">Framer</span>--><span
+            class="tag tc">Design
+            Systems</span></div>
+      </div>
+
+      <div class="sk-card rv">
+        <div class="sk-ico">⚛️</div>
+        <div class="sk-nm">Front-End Dev</div>
+        <div class="sk-ds">Blazing-fast, accessible UIs with modern frameworks and zero compromise on quality.</div>
+        <div class="sk-bw">
+          <div class="sk-b m" data-p="95"></div>
+        </div>
+        <div class="sk-pct">95%</div>
+        <div class="tags"><span class="tag tm">React</span><span class="tag tm">Next.js</span><!--<span
+            class="tag tm">TypeScript</span>--></div>
+      </div>
+
+      <div class="sk-card rv">
+        <div class="sk-ico">⚙️</div>
+        <div class="sk-nm">Back-End Eng.</div>
+        <div class="sk-ds">Rock-solid APIs and server architectures that don't wake you up at 3am.</div>
+        <div class="sk-bw">
+          <div class="sk-b g" data-p="88"></div>
+        </div>
+        <div class="sk-pct">88%</div>
+        <div class="tags"><span class="tag tg">Node.js</span><span class="tag tg">Python</span><span
+            class="tag tg">Java</span></div>
+      </div>
+
+      <div class="sk-card rv">
+        <div class="sk-ico">☁️</div>
+        <div class="sk-nm">Cloud &amp; DevOps</div>
+        <div class="sk-ds">Ship fast, scale globally. CI/CD pipelines and cloud-native architecture.</div>
+        <div class="sk-bw">
+          <div class="sk-b y" data-p="82"></div>
+        </div>
+        <div class="sk-pct">82%</div>
+        <div class="tags"><span class="tag ty">AWS</span><span class="tag ty">Docker</span><span class="tag ty">GitHub
+            Actions</span></div>
+      </div>
+
+      <div class="sk-card rv">
+        <div class="sk-ico">📱</div>
+        <div class="sk-nm">Mobile Dev</div>
+        <div class="sk-ds">Cross-platform apps with native feel from a single, clean codebase.</div>
+        <div class="sk-bw">
+          <div class="sk-b c" data-p="80"></div>
+        </div>
+        <div class="sk-pct">80%</div>
+        <div class="tags"><span class="tag tc">React Native</span><span class="tag tc">Expo</span></div>
+      </div>
+
+      <div class="sk-card rv">
+        <div class="sk-ico">🤖</div>
+        <div class="sk-nm">AI Integration</div>
+        <div class="sk-ds">Building intelligent features with LLMs, embeddings, and real-time ML pipelines.</div>
+        <div class="sk-bw">
+          <div class="sk-b m" data-p="75"></div>
+        </div>
+        <div class="sk-pct">75%</div>
+        <div class="tags"><span class="tag tm">OpenAI</span><span class="tag tm">LangChain</span><span
+            class="tag tm">Python</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROJECTS ═════════════════════════════════════ -->
+  <section id="projects">
+    <p class="sl rv">Work</p>
+    <h2 class="st rv">Featured <span>Projects</span></h2>
+
+    <div class="pj-grid">
+      <article class="pj-card rv">
+        <div class="pj-thumb pt1">
+          <div class="scan"></div>🌐
+        </div>
+        <div class="pj-body">
+          <p class="pj-meta">// WEB APP · 2024</p>
+          <h3>Orion Dashboard</h3>
+          <p>Real-time analytics platform with live data streams, interactive charts, and role-based access. Handles
+            10M+ events/day.</p>
+          <div class="pj-foot">
+            <a href="#" class="pj-link">Live Demo ↗</a>
+            <a href="#" class="pj-link m">GitHub ↗</a>
+            <div class="tags"><span class="tag tc">React</span><span class="tag tg">Node</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pj-card rv">
+        <div class="pj-thumb pt2">
+          <div class="scan"></div>🛒
+        </div>
+        <div class="pj-body">
+          <p class="pj-meta">// E-COMMERCE · 2024</p>
+          <h3>Ember Shop</h3>
+          <p>High-converting storefront with Stripe payments, real-time inventory sync, headless CMS backend. 99
+            Lighthouse score.</p>
+          <div class="pj-foot">
+            <a href="#" class="pj-link">Live Demo ↗</a>
+            <a href="#" class="pj-link m">GitHub ↗</a>
+            <div class="tags"><span class="tag tm">Next.js</span><span class="tag ty">Stripe</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pj-card rv">
+        <div class="pj-thumb pt3">
+          <div class="scan"></div>🌿
+        </div>
+        <div class="pj-body">
+          <p class="pj-meta">// MOBILE · 2023</p>
+          <h3>GreenTrack</h3>
+          <p>Sustainability app helping 50k+ users track carbon footprints, discover eco-alternatives, and earn rewards
+            for green habits.</p>
+          <div class="pj-foot">
+            <a href="#" class="pj-link">App Store ↗</a>
+            <a href="#" class="pj-link m">GitHub ↗</a>
+            <div class="tags"><span class="tag tg">RN</span><span class="tag tc">Firebase</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pj-card rv">
+        <div class="pj-thumb pt4">
+          <div class="scan"></div>🤖
+        </div>
+        <div class="pj-body">
+          <p class="pj-meta">// AI TOOL · 2023</p>
+          <h3>Lexis AI</h3>
+          <p>Context-aware AI writing assistant with custom fine-tuned models. 20k MAU, 4.9★ on Product Hunt launch.</p>
+          <div class="pj-foot">
+            <a href="#" class="pj-link">Live Demo ↗</a>
+            <a href="#" class="pj-link m">GitHub ↗</a>
+            <div class="tags"><span class="tag tm">GPT-4</span><span class="tag tg">Python</span></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══════════════════════════════════════ -->
+  <section id="contact">
+    <p class="sl rv">Let's Talk</p>
+    <h2 class="st rv">Start a <span>Project</span></h2>
+
+    <div class="ct-layout">
+      <!-- Info -->
+      <div class="rl">
+        <div class="ct-info">
+          <p>
+            Have an idea? A problem to solve? Or just want to connect?
+            I respond within 24 hours and love talking about ambitious projects.
+          </p>
+        </div>
+        <div class="c-items">
+          <div class="c-item">
+            <div class="c-ico">📧</div>
+            <div class="c-txt"><strong>Email</strong><span>kashidpratik100@gmail.com</span></div>
+          </div>
+          <div class="c-item">
+            <div class="c-ico">📍</div>
+            <div class="c-txt"><strong>Location</strong><span>Pune, Maharashtra</span></div>
+          </div>
+          <div class="c-item">
+            <div class="c-ico">🟢</div>
+            <div class="c-txt"><strong>Status</strong><span>Open to opportunities</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="rr">
+        <div class="succ" id="succ">✓ Message received! I'll be in touch within 24 hours.</div>
+
+        <form id="cForm" novalidate>
+          <div class="frow">
+            <div class="field">
+              <label>Name *</label>
+              <input type="text" id="fn" placeholder="Your name" />
+              <span class="emsg" id="ne">Name cannot be empty.</span>
+            </div>
+            <div class="field">
+              <label>Email *</label>
+              <input type="email" id="fe" placeholder="your@email.com" />
+              <span class="emsg" id="ee">Enter a valid email.</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Subject</label>
+            <input type="text" id="fs" placeholder="Project / Collaboration / Just saying hi" />
+          </div>
+
+          <div class="field">
+            <label>Message *</label>
+            <textarea id="fm" rows="5" placeholder="Tell me about your idea..."></textarea>
+            <span class="emsg" id="me">Message cannot be empty.</span>
+          </div>
+
+          <button type="submit" class="btn b-neon" style="width:100%;justify-content:center">
+            Send Message →
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Submitted Feedback Display -->
+    <div id="fb-sec"></div>
+  </section>
+
+  <!-- ══ FOOTER ═══════════════════════════════════════ -->
+  <footer>
+    <div class="fl">Pratik.<span>Kashid</span></div>
+    <p>© 2026 Pratik Kashid. Built with 💙 and too much coffee.</p>
+    <div class="soc">
+      <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
