@@ -7,12 +7,11 @@ A visually striking, fully responsive personal portfolio website built with pure
 ## 📁 Project Structure
 
 ```
-my-portfolio/
+portfolio/
 ├── index.html       # HTML structure & content
 ├── style.css        # All styling & animations
 ├── script.js        # All JavaScript & interactivity
-└── resources/
-    └── myIMG.png    # Your profile photo
+└── myIMG.png        # Your profile photo
 ```
 
 ---
