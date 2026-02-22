@@ -1,4 +1,4 @@
-# 🚀 Alex Morgan — Portfolio Website
+# 🚀 Pratik Kashid — Portfolio Website
 
 A visually striking, fully responsive personal portfolio website built with pure **HTML**, **CSS**, and **JavaScript**. Features a dark cyberpunk aesthetic with animated particle backgrounds, glitch effects, 3D card tilts, and localStorage-powered feedback storage.
 
@@ -7,7 +7,7 @@ A visually striking, fully responsive personal portfolio website built with pure
 ## 📁 Project Structure
 
 ```
-your-project/
+my-portfolio/
 ├── index.html       # HTML structure & content
 ├── style.css        # All styling & animations
 ├── script.js        # All JavaScript & interactivity
@@ -76,7 +76,7 @@ npx serve .
 ## 🎨 Customization
 
 ### Change your name
-In `index.html`, search for `Alex.Morgan` and `Alex Morgan` and replace with your name.
+In `index.html`, search for `Pratik.Kashid` and `Pratik Kashid` and replace with your name.
 
 ### Change colors
 In `style.css`, edit the CSS variables at the top:
