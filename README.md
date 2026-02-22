@@ -73,50 +73,6 @@ npx serve .
 
 ---
 
-## 🎨 Customization
-
-### Change your name
-In `index.html`, search for `Pratik.Kashid` and `Pratik Kashid` and replace with your name.
-
-### Change colors
-In `style.css`, edit the CSS variables at the top:
-```css
-:root {
-  --cyan: #00f5ff;   /* Primary accent */
-  --mag:  #ff2d78;   /* Secondary accent */
-  --grn:  #00ff88;   /* Tertiary accent */
-  --yel:  #f5e642;   /* Highlight */
-}
-```
-
-### Add your social links
-In `index.html`, replace the `href="#"` in the footer `.soc` links with your real URLs:
-```html
-<a href="https://github.com/yourusername" title="GitHub">
-  <i class="fab fa-github"></i>
-</a>
-```
-
-### Update your photo
-Replace `resources/myIMG.png` with your own image. Keep the filename the same, or update the `src` in `index.html`:
-```html
-<img src="resources/myIMG.png" alt="Your Name" class="av-img"/>
-```
-
----
-
-## 📦 Dependencies (CDN — no install needed)
-
-```html
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet"/>
-
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-```
-
----
-
 ## 📱 Browser Support
 
 | Browser | Support |
