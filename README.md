@@ -44,21 +44,6 @@ my-portfolio/
 
 ---
 
-## 🚀 Getting Started
-
-1. **Download or clone** the project files
-2. Make sure all files are in the **same folder**
-3. Place your photo at `resources/myIMG.png`
-4. Open `index.html` in any browser — no build step needed
-
-```bash
-# Optional: serve locally with VS Code Live Server
-# or any simple HTTP server
-npx serve .
-```
-
----
-
 ## 📄 Sections
 
 | Section | Description |
